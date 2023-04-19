@@ -1,4 +1,4 @@
-# Proyecto Final React para CoderHouse 39530
+# Proyecto Final Arg Programa 
 
 Mi nombre es Lucas Aspee , este es mi proyecto final para el curso de Desarollo Web Inicial de Argentina Progrma .
 El proyecto se trata de  una landing page acerca de una empresa ficticia dedicada al rubro de vivero. En él podemos ver información de la organización , como así también enviar un formulario de contacto o reservar una cita .
