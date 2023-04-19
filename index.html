@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./Animaciones/animate.css">
+    <title>El Oasis</title>
+</head>
+<nav class="navbar navbar-expand-lg bgNavbar ">
+    <div class="container-fluid pe-5 ps-5 contenedorNav ">
+        <div class="brandNavbar">
+            <a class="navbar-brand" href="./index.html">El Oasis</a>
+            <img src="./Recursos/tree.png" alt="">
+        </div>
+        <button class="hamburger hamburger--slider d-ms-block d-sm-block d-lg-none d-xl-none d-xxl-none text-center "
+            type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="hamburger-box ">
+                <span class="hamburger-inner "></span>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse text-center textoNavBar " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 ">
+                <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">INICIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#bloqueOrganizacion">ORGANIZACIÓN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#nosotros">NOSOTROS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#bloqContacto">CONTACTO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#bloqContacto">RESERVA</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div class="bannerBienvenida">
+        <img src="./Recursos/277849-agroplanta-s-r-l-banner7ba6.jpg" alt="">
+    </div>
+    <header class="container-fluid" id="bloqueOrganizacion">
+        <div class="row bloquePresentacion wow fadeIn">
+            <h1 class="">
+                ¡Bienvenidos!
+            </h1>
+            <p>Somos una empresa dedicada a la venta y comercialización de plantas, flores , plantines e insumos,
+                que tiene una trayectoria de 5 años en el mercado.
+
+                En nuestro vivero, nos esforzamos por brindar la mejor calidad en cada uno de nuestros productos,
+                ofreciendo variedad y frescura en cada una de nuestras plantas y flores. Nos enorgullece ser capaces de
+                satisfacer a cada uno de nuestros clientes, tanto a aquellos con experiencia en jardinería, como a
+                aquellos que recién comienzan.
+            </p>
+            <span>¡Visítenos y descubra todo lo que tenemos para ofrecer!</span>
+        </div>
+    </header>
+    <div class="cointainer-fluid wow fadeInLeft " data-wow-duration="2s">
+        <div class="row bloqueNosotros gx-0 gap-1" id="nosotros">
+            <div class=" nosotros ">
+                <h2>Sobre Nosotros..</h2>
+                <p>El vivero "El Oasis" ubicado en La Rioja, Argentina, es propiedad de una pareja de esposos: José y
+                    Ana. Desde su juventud, ambos han sido amantes de la naturaleza y el cuidado de las plantas. José se
+                    formó como técnico agrónomo, mientras que Ana se especializó en diseño de jardines.
+
+                    En el año 2010, después de años de trabajar en otros viveros, decidieron crear su propio negocio en
+                    La Rioja. Así nació "El Oasis". Desde entonces, la empresa ha crecido y se ha consolidado en el
+                    mercado local.
+
+                    En la actualidad, el equipo de "El Oasis" está compuesto por un grupo de personas apasionadas por su
+                    trabajo, quienes se han convertido en una gran familia. Cada uno de ellos tiene habilidades y
+                    conocimientos específicos en el cuidado y la comercialización de plantas, lo que les permite brindar
+                    un servicio integral y de calidad a cada uno de sus clientes.</p>
+            </div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade   backgroundNosotros"
+                data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./Recursos/fotosnostrosuno.jpg" class="d-block " alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./Recursos/fotosnostrosdos.jpg" class="d-block " alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+    </div>
+    <div class="cointainer-fluid mt-3 margenBoxContactoRerserva wow fadeInRight" data-wow-duration="2s">
+        <div class="row gx-0 gap-1 contenedorPadreReservaContacto">
+            <div class="col-6  bloqueContacto" id="bloqContacto">
+                <img src="./Recursos/contact.png" alt="">
+                <div class="textoInfoContacto">
+                    <h3>¿Tienes alguna consulta o duda sobre nuestros servicios ?</h3>
+                    <p>No dudes en contactarnos</p>
+                </div>
+                <div class="contendorBotones1">
+                    <button class="   botonn uno" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                        <span>CONTACTO</span>
+                    </button>
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body formularioDeContacto">
+                        <h2>FORMULARIO DE CONTACTO</h2>
+                        <form id="formContacto">
+                            <div class="mb-3 ">
+                                <label for="nombre" class="form-label"></label>
+                                <input type="text" class="form-control " name="nombre" id="nombre" placeholder="Nombre">
+                            </div>
+                            <div class="mb-3">
+                                <label for="apellido" class="form-label"></label>
+                                <input type="text" class="form-control" name="apellido" id="apellido"
+                                    placeholder="Apellido">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label"></label>
+                                <input type="email" class="form-control" name="email" id="email"
+                                    aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Escribe tu consulta</label>
+                                <textarea class="form-control" name="mensaje" id="mensaje" rows="3"></textarea>
+                            </div>
+                            <div class="contenedorBotonEnviar">
+                                <button type="submit" class="btn botonEnviar">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-6   bloqueReser">
+                <img src="./Recursos/successful-booking.png" alt="">
+                <div class="textoInfoContacto">
+                    <h3>¡Realiza tu reserva aquí !</h3>
+                    <p>¡Te esperamos !</p>
+                </div>
+                <div class="contendorBotones1">
+                    <button class="   botonn uno" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExamplee" aria-expanded="false" aria-controls="collapseExamplee">
+                        <span>RESERVA</span>
+                    </button>
+                </div>
+                <div class="collapse" id="collapseExamplee">
+                    <div class="card card-body formularioDeContacto mb-3">
+                        <h2 class=" mt-5 mb-5 text-center">RESERVA TU CITA</h2>
+                        <form id="formCita">
+                            <div class="mb-3">
+                                <label for="nombreCita" class="form-label"></label>
+                                <input type="text" class="form-control" name="nombreCita" id="nombreCita"
+                                    placeholder="Nombre y Apellido">
+                            </div>
+                            <div class="mb-3">
+                                <label for="emailCita" class="form-label"></label>
+                                <input type="email" class="form-control" name="emailCita" id="emailCita"
+                                    aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label"></label>
+                                <input type="number" class="form-control" name="telefono" id="telefono"
+                                    placeholder="Celular de Contacto">
+                            </div>
+                            <div class="d-flex">
+                                <select class="form-select" id="diareserva" name="diareserva">
+                                    <option value="">Elige el Dia</option>
+                                    <option value="Lunes">Lunes</option>
+                                    <option value="Miercoles">Miercoles</option>
+                                    <option value="Viernes">Viernes</option>
+                                </select>
+                                <select class="form-select" aria-label="Default select example" id="horaCita"
+                                    name="horaCita">
+                                    <option value="">Selecciona Horario disponible</option>
+                                    <option value="10hs am">10hs Am</option>
+                                    <option value="15hs pm">15hs Pm</option>
+                                    <option value="18hs pm">18hs Pm</option>
+                                </select>
+                            </div>
+                            <div class="contenedorBotonEnviar mt-3">
+                                <button type="submit" class="btn botonEnviar ">Reservar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="infoFooter">
+            <div class="linkFooter">
+                <a href="./index.html">INICIO</a>
+                <a href="#bloqueOrganizacion">ORGANIZACIÓN</a>
+                <a href="#nosotros">NOSOTROS</a>
+                <a href="#bloqContacto">CONTACTO</a>
+                <a href="#bloqContacto">RESERVA</a>
+            </div>
+            <div class="linkRedes">
+                <h2>Nuestras Redes</h2>
+                <div class="redesSociales">
+                    <img src="./Recursos/facebook.png" alt=""></a>
+                    <img src="./Recursos/instagram.png" alt="">
+                    <img src="./Recursos/twitter.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./Animaciones/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>
