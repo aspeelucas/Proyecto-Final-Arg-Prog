@@ -13,7 +13,7 @@ Descargar todos los archivos del repositorio, los recursos utilizados de bibliot
 El proyecto se puede probar en:
 
 ```bash
-  
+  https://proyecto-final-arg-prog.vercel.app/
 ```
 
 
@@ -27,7 +27,6 @@ El proyecto se puede probar en:
 * [wowjs] (https://wowjs.uk/) Biblioteca de animaciones
 * [SweetAlert2] (https://fkhadra.github.io/react-toastify/introduction/) Notificaciones
 * [Boostrap] (https://getbootstrap.com/) Navbar , carousel ,acordeones ,buttons
-
 
 ## Autor
 
